@@ -1,1 +1,130 @@
-print('hello world')
+输出hello python
+注意：编辑的符号都是英文的
+
+print("hello world")
+hello world
+print("hello world")
+hello world
+
+在jupyter中运行代码， shift+回车
+查看关键字
+import keyword
+keyword.kwlist
+['False',
+ 'None',
+ 'True',
+ 'and',
+ 'as',
+ 'assert',
+ 'break',
+ 'class',
+ 'continue',
+ 'def',
+ 'del',
+ 'elif',
+ 'else',
+ 'except',
+ 'finally',
+ 'for',
+ 'from',
+ 'global',
+ 'if',
+ 'import',
+ 'in',
+ 'is',
+ 'lambda',
+ 'nonlocal',
+ 'not',
+ 'or',
+ 'pass',
+ 'raise',
+ 'return',
+ 'try',
+ 'while',
+ 'with',
+ 'yield']
+ 
+使用title首字母大写
+hello world
+name = "hello world"
+name.title()
+'Hello World'
+
+字符串的大小写转换
+anmMJHUIbhjjj
+msg = "anmMJHUIbhjjj"
+msg.lower()
+'anmmjhuibhjjj'
+msg.upper()
+'ANMMJHUIBHJJJ'
+msg
+msg
+'anmMJHUIbhjjj'
+
+字符串拼接合并
+字符串多倍
+
+iwiowi
+a = "qwwer"
+b = "iwiowi"
+a
+a
+'qwwer'
+b
+b
+'iwiowi'
+a + b
+​
+'qwweriwiowi'
+a * 10
+'qwwerqwwerqwwerqwwerqwwerqwwerqwwerqwwerqwwerqwwer'
+
+删除字符串中的空白
+msg = "  ww FF w w "
+)
+print(msg)
+print(msg.lstrip())
+print(msg.rstrip())
+print(msg.strip())
+  ww FF w w 
+ww FF w w 
+  ww FF w w
+ww FF w w
+msg = "a n n m j k"
+print(msg)
+print(msg.replace(' ',''))
+print(msg.replace(' ','-'))
+a n n m j k
+annmjk
+a-n-n-m-j-k
+
+类型转换
+a = 10
+a = 10
+type(a)
+int
+type(str(a))
+str
+b = "100"
+type(b)
+str
+b
+type(int(b))
+int
+
+注释
+单行注释
+
+print("hello world" )  # 打印字符串,单行注释
+hello world
+
+"""
+skdksd
+skdlsdk
+ksjksdjd
+多行注释
+"""
+print("hello python")
+hello python
+​
+
